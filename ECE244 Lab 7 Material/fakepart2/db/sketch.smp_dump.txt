@@ -1,5 +1,0 @@
-
-State Machine - |sketch|FSM1:inst0|pstate
-Name pstate.B 
-pstate.A 0 
-pstate.B 1 
