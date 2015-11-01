@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1384390152 source:c:\users\owner\documents\c++lab5\lab5\dbentry.cpp
+	"DBentry.h"
+	<iostream>
+
+1384390152 
+
+1384390152 c:\users\owner\documents\c++lab5\lab5\dbentry.h
+	<string>
+
+1384722692 source:c:\users\owner\documents\c++lab5\lab5\main.cpp
+	<iostream>
+	<cstdlib>
+	<sstream>
+	"DBentry.h"
+	"TreeDB.h"
+
+1384725901 source:c:\users\owner\documents\c++lab5\lab5\treenode.cpp
+	"TreeNode.h"
+	<iostream>
+
+1384715043 c:\users\owner\documents\c++lab5\lab5\treenode.h
+	"DBentry.h"
+
+1384722692 "
+
+1384725171 source:c:\users\owner\documents\c++lab5\lab5\treedb.cpp
+	"TreeDB.h"
+	<iostream>
+
+1384722692 c:\users\owner\documents\c++lab5\lab5\treedb.h
+	"TreeNode.h"
+	"DBentry.h"
+
+1384386552 source:/media/KINGSTON/c++lab5/lab5/DBentry.cpp
+	"DBentry.h"
+	<iostream>
+
+1384386552 /media/KINGSTON/c++lab5/lab5/DBentry.h
+	<string>
+
+1384886935 source:/media/KINGSTON/c++lab5/lab5/TreeNode.cpp
+	"TreeNode.h"
+	<iostream>
+
+1384711444 /media/KINGSTON/c++lab5/lab5/TreeNode.h
+	"DBentry.h"
+
+1384887274 source:/media/KINGSTON/c++lab5/lab5/TreeDB.cpp
+	"TreeDB.h"
+	<iostream>
+
+1384886983 /media/KINGSTON/c++lab5/lab5/TreeDB.h
+	"TreeNode.h"
+	"DBentry.h"
+

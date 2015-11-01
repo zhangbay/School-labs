@@ -1,0 +1,7 @@
+module lab6part3(CLOCK_50, KEY, SW, LEDR, LEDG);
+	input CLOCK_50;
+	input [3:0]KEY;
+	input [17:0]SW;
+	output [17:0]LEDR;
+	output [8:0] LEDG;
+endmodule

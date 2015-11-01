@@ -1,0 +1,16 @@
+lab6part3
+l6:comb_19|
+l6:comb_19|counter:PC|
+l6:comb_19|upcount:Tstep|
+l6:comb_19|dec3to8:decX|
+l6:comb_19|dec3to8:decY|
+l6:comb_19|regn:reg_0|
+l6:comb_19|regn:reg_1|
+l6:comb_19|regn:reg_A|
+l6:comb_19|regn:reg_G|
+l6:comb_19|regn:reg_IR|
+l6:comb_19|regn:reg_addr|
+memory:comb_21|altsyncram:altsyncram_component|altsyncram_pkc1:auto_generated|
+memory:comb_21|
+memory:comb_21|altsyncram:altsyncram_component|
+l6:comb_19|regn:reg_dout|

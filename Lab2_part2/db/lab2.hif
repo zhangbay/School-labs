@@ -1,0 +1,228 @@
+Quartus II 64-Bit
+Version 11.1 Build 259 01/25/2012 Service Pack 2.11 SJ Full Version
+14
+1343
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+lab2
+# storage
+db|lab2.(0).cnf
+db|lab2.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lab2.v
+f677918944422d06484682b31ca8a1
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+ha
+# storage
+db|lab2.(1).cnf
+db|lab2.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lab2.v
+f677918944422d06484682b31ca8a1
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+ha:add0
+}
+# macro_sequence
+
+# end
+# entity
+fa
+# storage
+db|lab2.(2).cnf
+db|lab2.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lab2.v
+f677918944422d06484682b31ca8a1
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+fa:add1
+fa:add2
+fa:add3
+fa:add4
+fa:add5
+fa:add6
+fa:add7
+fa:add8
+fa:add9
+fa:add10
+fa:add11
+fa:add12
+fa:add13
+fa:add14
+fa:add15
+fa:add16
+fa:add17
+fa:add18
+fa:add19
+fa:add20
+fa:add21
+fa:add22
+fa:add23
+fa:add24
+fa:add25
+fa:add26
+fa:add27
+fa:add28
+fa:add29
+fa:add30
+fa:add31
+fa:add32
+fa:add33
+fa:add34
+fa:add35
+fa:add36
+fa:add37
+fa:add38
+fa:add39
+fa:add40
+fa:add41
+fa:add42
+fa:add43
+fa:add44
+fa:add45
+fa:add46
+fa:add47
+fa:add48
+fa:add49
+fa:add50
+fa:add51
+fa:add52
+fa:add53
+fa:add54
+fa:add55
+fa:add56
+fa:add57
+}
+# macro_sequence
+
+# end
+# entity
+hex_digits
+# storage
+db|lab2.(3).cnf
+db|lab2.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+hex_digits.v
+4cf262998a4dddd41e4f96c695eb6343
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+hex_digits:h0
+hex_digits:h1
+hex_digits:h2
+hex_digits:h3
+}
+# macro_sequence
+
+# end
+# complete
+

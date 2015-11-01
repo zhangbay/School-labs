@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1418198328 source:c:\users\owner\documents\lcs\main.cpp
+	<cstdlib>
+	<string>
+	<iostream>
+	<stdio.h>
+	<iterator>
+	<sstream>
+	<fstream>
+	<vector>
+
+1418198328 
+
+1418259006 source:/u/c/zhangf30/lcs/main.cpp
+	<cstdlib>
+	<string>
+	<iostream>
+	<stdio.h>
+	<iterator>
+	<algorithm>
+	<sstream>
+	<fstream>
+	<vector>
+

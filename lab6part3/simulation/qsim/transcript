@@ -1,0 +1,124 @@
+# do lab6part3.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lab6part3
+# 
+# Top level modules:
+# 	lab6part3
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lab6part3_vlg_sample_tst
+# -- Compiling module lab6part3_vlg_check_tst
+# -- Compiling module lab6part3_vlg_vec_tst
+# 
+# Top level modules:
+# 	lab6part3_vlg_vec_tst
+# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.lab6part3_vlg_vec_tst 
+# Loading work.lab6part3_vlg_vec_tst
+# Loading work.lab6part3
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_clk_delay_ctrl
+# Loading cycloneii_ver.cycloneii_clkctrl
+# Loading cycloneii_ver.cycloneii_mux41
+# Loading cycloneii_ver.cycloneii_ena_reg
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# Loading cycloneii_ver.cycloneii_ram_block
+# Loading cycloneii_ver.cycloneii_ram_register
+# Loading cycloneii_ver.cycloneii_ram_pulse_generator
+# Loading work.lab6part3_vlg_sample_tst
+# Loading work.lab6part3_vlg_check_tst
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# ERROR! Vector Mismatch for output port Addr[0] :: @time = 280000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0000000000000011
+# ERROR! Vector Mismatch for output port Addr[1] :: @time = 280000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0000000000000011
+# ERROR! Vector Mismatch for output port BusWires[7] :: @time = 280000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0100000010000000
+# ERROR! Vector Mismatch for output port BusWires[14] :: @time = 280000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0100000010000000
+# ERROR! Vector Mismatch for output port IR[10] :: @time = 280000.000 ps
+#      Expected value = 000000000xxxxxxx
+#      Real value = 0000010000000000
+# ERROR! Vector Mismatch for output port LEDR[7] :: @time = 280000.000 ps
+#      Expected value = 0x0000000000000000
+#      Real value = 000100000010000000
+# ERROR! Vector Mismatch for output port LEDR[14] :: @time = 280000.000 ps
+#      Expected value = 0x0000000000000000
+#      Real value = 000100000010000000
+# ERROR! Vector Mismatch for output port R0[1] :: @time = 280000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0000000000000110
+# ERROR! Vector Mismatch for output port R0[2] :: @time = 280000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0000000000000110
+# ERROR! Vector Mismatch for output port R1[1] :: @time = 280000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0000000000000110
+# ERROR! Vector Mismatch for output port R1[2] :: @time = 280000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0000000000000110
+# ERROR! Vector Mismatch for output port R7[0] :: @time = 280000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0000000000000011
+# ERROR! Vector Mismatch for output port R7[1] :: @time = 280000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0000000000000011
+# ERROR! Vector Mismatch for output port BusWires[1] :: @time = 290000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0000000000000110
+# ERROR! Vector Mismatch for output port BusWires[2] :: @time = 290000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0000000000000110
+# ERROR! Vector Mismatch for output port IR[7] :: @time = 290000.000 ps
+#      Expected value = 000000000xxxxxxx
+#      Real value = 0100000010000000
+# ERROR! Vector Mismatch for output port IR[14] :: @time = 290000.000 ps
+#      Expected value = 000000000xxxxxxx
+#      Real value = 0100000010000000
+# ERROR! Vector Mismatch for output port LEDG[0] :: @time = 290000.000 ps
+#      Expected value = xxxxxx000
+#      Real value = 000000001
+# ERROR! Vector Mismatch for output port R7[2] :: @time = 290000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0000000000000100
+# ERROR! Vector Mismatch for output port LEDG[1] :: @time = 310000.000 ps
+#      Expected value = xxxxxx000
+#      Real value = 000000010
+# ERROR! Vector Mismatch for output port RA[1] :: @time = 310000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0000000000000110
+# ERROR! Vector Mismatch for output port RA[2] :: @time = 310000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0000000000000110
+# ERROR! Vector Mismatch for output port BusWires[3] :: @time = 330000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0000000000001100
+# ERROR! Vector Mismatch for output port LEDR[17] :: @time = 330000.000 ps
+#      Expected value = 0x0000000000000000
+#      Real value = 100100000010000000
+# ERROR! Vector Mismatch for output port RG[2] :: @time = 330000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0000000000001100
+# ERROR! Vector Mismatch for output port RG[3] :: @time = 330000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0000000000001100
+# ERROR! Vector Mismatch for output port R0[3] :: @time = 350000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0000000000001100
+# ERROR! Vector Mismatch for output port Addr[2] :: @time = 370000.000 ps
+#      Expected value = 0000000000000000
+#      Real value = 0000000000000100
+# ERROR! Vector Mismatch for output port LEDR[13] :: @time = 390000.000 ps
+#      Expected value = 0x0000000000000000
+#      Real value = 000110000000000000
+#          29 mismatched vectors : Simulation failed !
+# ** Note: $finish    : lab6part3.vt(3125)
+#    Time: 500 ns  Iteration: 0  Instance: /lab6part3_vlg_vec_tst/tb_out

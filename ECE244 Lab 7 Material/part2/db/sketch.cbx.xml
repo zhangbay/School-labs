@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="sketch">
+		<CBX_INST_ENTRY INSTANCE_NAME="|sketch|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_jem.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sketch|lpm_divide:Div1" CBX_FILE_NAME="lpm_divide_tcm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sketch|vga_adapter:VGA|altsyncram:VideoMemory" CBX_FILE_NAME="altsyncram_ptd1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

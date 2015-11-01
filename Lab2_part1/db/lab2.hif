@@ -1,0 +1,342 @@
+Quartus II 64-Bit
+Version 11.1 Build 259 01/25/2012 Service Pack 2 SJ Full Version
+14
+1343
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+hex_digits
+# storage
+db|lab2.(4).cnf
+db|lab2.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+hex_digits.v
+4cf262998a4dddd41e4f96c695eb6343
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+hex_digits:h0
+hex_digits:h1
+hex_digits:h2
+hex_digits:h3
+}
+# macro_sequence
+
+# end
+# entity
+lab2
+# storage
+db|lab2.(0).cnf
+db|lab2.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lab2.v
+d5c5cbc426df10b6f9a52d9ec3f7fbfb
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+booth
+# storage
+db|lab2.(1).cnf
+db|lab2.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lab2.v
+d5c5cbc426df10b6f9a52d9ec3f7fbfb
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+booth:b1
+booth:b2
+booth:b3
+booth:b4
+booth:b5
+booth:b6
+booth:b7
+booth:b8
+}
+# macro_sequence
+
+# end
+# entity
+onescomp
+# storage
+db|lab2.(2).cnf
+db|lab2.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lab2.v
+d5c5cbc426df10b6f9a52d9ec3f7fbfb
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+onescomp:oc01
+onescomp:oc02
+onescomp:oc03
+onescomp:oc04
+onescomp:oc05
+onescomp:oc06
+onescomp:oc07
+onescomp:oc08
+onescomp:oc11
+onescomp:oc12
+onescomp:oc13
+onescomp:oc14
+onescomp:oc15
+onescomp:oc16
+onescomp:oc17
+onescomp:oc18
+onescomp:oc21
+onescomp:oc22
+onescomp:oc23
+onescomp:oc24
+onescomp:oc25
+onescomp:oc26
+onescomp:oc27
+onescomp:oc28
+onescomp:oc31
+onescomp:oc32
+onescomp:oc33
+onescomp:oc34
+onescomp:oc35
+onescomp:oc36
+onescomp:oc37
+onescomp:oc38
+onescomp:oc41
+onescomp:oc42
+onescomp:oc43
+onescomp:oc44
+onescomp:oc45
+onescomp:oc46
+onescomp:oc47
+onescomp:oc48
+onescomp:oc51
+onescomp:oc52
+onescomp:oc53
+onescomp:oc54
+onescomp:oc55
+onescomp:oc56
+onescomp:oc57
+onescomp:oc58
+onescomp:oc61
+onescomp:oc62
+onescomp:oc63
+onescomp:oc64
+onescomp:oc65
+onescomp:oc66
+onescomp:oc67
+onescomp:oc68
+onescomp:oc71
+onescomp:oc72
+onescomp:oc73
+onescomp:oc74
+onescomp:oc75
+onescomp:oc76
+onescomp:oc77
+onescomp:oc78
+}
+# macro_sequence
+
+# end
+# entity
+fa
+# storage
+db|lab2.(3).cnf
+db|lab2.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lab2.v
+d5c5cbc426df10b6f9a52d9ec3f7fbfb
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+fa:add01
+fa:add02
+fa:add03
+fa:add04
+fa:add05
+fa:add06
+fa:add07
+fa:add08
+fa:add11
+fa:add12
+fa:add13
+fa:add14
+fa:add15
+fa:add16
+fa:add17
+fa:add18
+fa:add21
+fa:add22
+fa:add23
+fa:add24
+fa:add25
+fa:add26
+fa:add27
+fa:add28
+fa:add31
+fa:add32
+fa:add33
+fa:add34
+fa:add35
+fa:add36
+fa:add37
+fa:add38
+fa:add41
+fa:add42
+fa:add43
+fa:add44
+fa:add45
+fa:add46
+fa:add47
+fa:add48
+fa:add51
+fa:add52
+fa:add53
+fa:add54
+fa:add55
+fa:add56
+fa:add57
+fa:add58
+fa:add61
+fa:add62
+fa:add63
+fa:add64
+fa:add65
+fa:add66
+fa:add67
+fa:add68
+fa:add71
+fa:add72
+fa:add73
+fa:add74
+fa:add75
+fa:add76
+fa:add77
+fa:add78
+fa:se36
+}
+# macro_sequence
+
+# end
+# complete
+

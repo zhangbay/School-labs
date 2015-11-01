@@ -1,0 +1,827 @@
+|lab2
+SW[0] => pp1.IN0
+SW[0] => pp2.IN0
+SW[0] => pp3.IN0
+SW[0] => pp4.IN0
+SW[0] => pp5.IN0
+SW[0] => pp6.IN0
+SW[0] => pp7.IN0
+SW[0] => pp8.IN0
+SW[1] => pp1.IN0
+SW[1] => pp2.IN0
+SW[1] => pp3.IN0
+SW[1] => pp4.IN0
+SW[1] => pp5.IN0
+SW[1] => pp6.IN0
+SW[1] => pp7.IN0
+SW[1] => pp8.IN0
+SW[2] => pp1.IN0
+SW[2] => pp2.IN0
+SW[2] => pp3.IN0
+SW[2] => pp4.IN0
+SW[2] => pp5.IN0
+SW[2] => pp6.IN0
+SW[2] => pp7.IN0
+SW[2] => pp8.IN0
+SW[3] => pp1.IN0
+SW[3] => pp2.IN0
+SW[3] => pp3.IN0
+SW[3] => pp4.IN0
+SW[3] => pp5.IN0
+SW[3] => pp6.IN0
+SW[3] => pp7.IN0
+SW[3] => pp8.IN0
+SW[4] => pp1.IN0
+SW[4] => pp2.IN0
+SW[4] => pp3.IN0
+SW[4] => pp4.IN0
+SW[4] => pp5.IN0
+SW[4] => pp6.IN0
+SW[4] => pp7.IN0
+SW[4] => pp8.IN0
+SW[5] => pp1.IN0
+SW[5] => pp2.IN0
+SW[5] => pp3.IN0
+SW[5] => pp4.IN0
+SW[5] => pp5.IN0
+SW[5] => pp6.IN0
+SW[5] => pp7.IN0
+SW[5] => pp8.IN0
+SW[6] => pp1.IN0
+SW[6] => pp2.IN0
+SW[6] => pp3.IN0
+SW[6] => pp4.IN0
+SW[6] => pp5.IN0
+SW[6] => pp6.IN0
+SW[6] => pp7.IN0
+SW[6] => pp8.IN0
+SW[7] => pp1.IN0
+SW[7] => pp2.IN0
+SW[7] => pp3.IN0
+SW[7] => pp4.IN0
+SW[7] => pp5.IN0
+SW[7] => pp6.IN0
+SW[7] => pp7.IN0
+SW[7] => pp8.IN0
+SW[8] => pp1.IN1
+SW[8] => pp1.IN1
+SW[8] => pp1.IN1
+SW[8] => pp1.IN1
+SW[8] => pp1.IN1
+SW[8] => pp1.IN1
+SW[8] => pp1.IN1
+SW[8] => pp1.IN1
+SW[9] => pp2.IN1
+SW[9] => pp2.IN1
+SW[9] => pp2.IN1
+SW[9] => pp2.IN1
+SW[9] => pp2.IN1
+SW[9] => pp2.IN1
+SW[9] => pp2.IN1
+SW[9] => pp2.IN1
+SW[10] => pp3.IN1
+SW[10] => pp3.IN1
+SW[10] => pp3.IN1
+SW[10] => pp3.IN1
+SW[10] => pp3.IN1
+SW[10] => pp3.IN1
+SW[10] => pp3.IN1
+SW[10] => pp3.IN1
+SW[11] => pp4.IN1
+SW[11] => pp4.IN1
+SW[11] => pp4.IN1
+SW[11] => pp4.IN1
+SW[11] => pp4.IN1
+SW[11] => pp4.IN1
+SW[11] => pp4.IN1
+SW[11] => pp4.IN1
+SW[12] => pp5.IN1
+SW[12] => pp5.IN1
+SW[12] => pp5.IN1
+SW[12] => pp5.IN1
+SW[12] => pp5.IN1
+SW[12] => pp5.IN1
+SW[12] => pp5.IN1
+SW[12] => pp5.IN1
+SW[13] => pp6.IN1
+SW[13] => pp6.IN1
+SW[13] => pp6.IN1
+SW[13] => pp6.IN1
+SW[13] => pp6.IN1
+SW[13] => pp6.IN1
+SW[13] => pp6.IN1
+SW[13] => pp6.IN1
+SW[14] => pp7.IN1
+SW[14] => pp7.IN1
+SW[14] => pp7.IN1
+SW[14] => pp7.IN1
+SW[14] => pp7.IN1
+SW[14] => pp7.IN1
+SW[14] => pp7.IN1
+SW[14] => pp7.IN1
+SW[15] => pp8.IN1
+SW[15] => pp8.IN1
+SW[15] => pp8.IN1
+SW[15] => pp8.IN1
+SW[15] => pp8.IN1
+SW[15] => pp8.IN1
+SW[15] => pp8.IN1
+SW[15] => pp8.IN1
+
+
+|lab2|ha:add0
+x => carry.IN0
+x => sum.IN0
+y => carry.IN1
+y => sum.IN1
+
+
+|lab2|fa:add1
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add2
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add3
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add4
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add5
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add6
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add7
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add8
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add9
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add10
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add11
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add12
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add13
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add14
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add15
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add16
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add17
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add18
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add19
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add20
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add21
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add22
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add23
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add24
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add25
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add26
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add27
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add28
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add29
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add30
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add31
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add32
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add33
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add34
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add35
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add36
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add37
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add38
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add39
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add40
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add41
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add42
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add43
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add44
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add45
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add46
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add47
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add48
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add49
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add50
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add51
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add52
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add53
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add54
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add55
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add56
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|fa:add57
+x => a.IN0
+x => b.IN0
+y => a.IN1
+y => b.IN1
+cin => c.IN1
+cin => sum.IN1
+
+
+|lab2|hex_digits:h0
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN0
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN0
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN0
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN0
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN0
+x[1] => hex_LEDs.IN1
+x[2] => hex_LEDs.IN1
+x[2] => hex_LEDs.IN0
+x[2] => hex_LEDs.IN0
+x[2] => hex_LEDs.IN0
+x[2] => hex_LEDs.IN1
+x[2] => hex_LEDs.IN0
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+
+
+|lab2|hex_digits:h1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN0
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN0
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN0
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN0
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN0
+x[1] => hex_LEDs.IN1
+x[2] => hex_LEDs.IN1
+x[2] => hex_LEDs.IN0
+x[2] => hex_LEDs.IN0
+x[2] => hex_LEDs.IN0
+x[2] => hex_LEDs.IN1
+x[2] => hex_LEDs.IN0
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+
+
+|lab2|hex_digits:h2
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN0
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN0
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN0
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN0
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN0
+x[1] => hex_LEDs.IN1
+x[2] => hex_LEDs.IN1
+x[2] => hex_LEDs.IN0
+x[2] => hex_LEDs.IN0
+x[2] => hex_LEDs.IN0
+x[2] => hex_LEDs.IN1
+x[2] => hex_LEDs.IN0
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+
+
+|lab2|hex_digits:h3
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN0
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[0] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN0
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN0
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN0
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN1
+x[1] => hex_LEDs.IN0
+x[1] => hex_LEDs.IN1
+x[2] => hex_LEDs.IN1
+x[2] => hex_LEDs.IN0
+x[2] => hex_LEDs.IN0
+x[2] => hex_LEDs.IN0
+x[2] => hex_LEDs.IN1
+x[2] => hex_LEDs.IN0
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+x[3] => hex_LEDs.IN1
+
+

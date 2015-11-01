@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="animation">
+		<CBX_INST_ENTRY INSTANCE_NAME="|animation|counter:comb_129|TRAIN:bsthisshit|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_n3c1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|animation|vga_adapter:VGA|altsyncram:VideoMemory" CBX_FILE_NAME="altsyncram_ptd1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

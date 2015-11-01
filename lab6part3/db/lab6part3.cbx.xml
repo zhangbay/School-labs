@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="lab6part3">
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab6part3|memory:comb_16|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_pkc1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

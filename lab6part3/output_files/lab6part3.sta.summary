@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'KEY[1]'
+Slack : -7.806
+TNS   : -876.832
+
+Type  : Slow Model Setup 'l6:comb_14|Dout'
+Slack : -7.369
+TNS   : -104.871
+
+Type  : Slow Model Setup 'l6:comb_14|regn:reg_IR|Q[13]'
+Slack : -7.012
+TNS   : -39.369
+
+Type  : Slow Model Setup 'l6:comb_14|upcount:Tstep|Q[0]'
+Slack : -6.701
+TNS   : -44.284
+
+Type  : Slow Model Hold 'l6:comb_14|regn:reg_IR|Q[13]'
+Slack : -3.640
+TNS   : -44.085
+
+Type  : Slow Model Hold 'l6:comb_14|upcount:Tstep|Q[0]'
+Slack : -3.098
+TNS   : -37.351
+
+Type  : Slow Model Hold 'KEY[1]'
+Slack : -2.472
+TNS   : -63.026
+
+Type  : Slow Model Hold 'l6:comb_14|Dout'
+Slack : 1.444
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'KEY[1]'
+Slack : -2.000
+TNS   : -309.222
+
+Type  : Slow Model Minimum Pulse Width 'l6:comb_14|regn:reg_IR|Q[13]'
+Slack : -1.617
+TNS   : -43.962
+
+Type  : Slow Model Minimum Pulse Width 'l6:comb_14|upcount:Tstep|Q[0]'
+Slack : -0.292
+TNS   : -2.850
+
+Type  : Slow Model Minimum Pulse Width 'l6:comb_14|Dout'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'l6:comb_14|regn:reg_IR|Q[13]'
+Slack : -3.112
+TNS   : -12.539
+
+Type  : Fast Model Setup 'l6:comb_14|upcount:Tstep|Q[0]'
+Slack : -2.961
+TNS   : -14.882
+
+Type  : Fast Model Setup 'l6:comb_14|Dout'
+Slack : -2.776
+TNS   : -38.240
+
+Type  : Fast Model Setup 'KEY[1]'
+Slack : -2.708
+TNS   : -294.553
+
+Type  : Fast Model Hold 'l6:comb_14|regn:reg_IR|Q[13]'
+Slack : -1.757
+TNS   : -22.797
+
+Type  : Fast Model Hold 'l6:comb_14|upcount:Tstep|Q[0]'
+Slack : -1.691
+TNS   : -20.362
+
+Type  : Fast Model Hold 'KEY[1]'
+Slack : -1.517
+TNS   : -78.068
+
+Type  : Fast Model Hold 'l6:comb_14|Dout'
+Slack : 0.599
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'KEY[1]'
+Slack : -2.000
+TNS   : -309.222
+
+Type  : Fast Model Minimum Pulse Width 'l6:comb_14|regn:reg_IR|Q[13]'
+Slack : -0.395
+TNS   : -9.200
+
+Type  : Fast Model Minimum Pulse Width 'l6:comb_14|upcount:Tstep|Q[0]'
+Slack : 0.155
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'l6:comb_14|Dout'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------
