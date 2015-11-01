@@ -1,1 +1,1 @@
-# School-labs
+# labs and other extra projects
